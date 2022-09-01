@@ -39,19 +39,22 @@ main {
 .image1 {
   height: 150px;
   background-image: url(img/flow01.png);
-  background-size: cover;
+  background-size: 100%;
+  background-position: center bottom;
 }
 
 .image2 {
   height: 150px;
   background-image: url(img/flow02.png);
   background-size: cover;
+  background-position: center bottom;
 }
 
 .image3 {
   height: 150px;
   background-image: url(img/flow03.png);
   background-size: cover;
+  background-position: center bottom;
 }
 
 h3 {
@@ -71,34 +74,20 @@ footer {
   display: block;
   margin: 50px auto;
   }
-  
+
   .main-box {
   width: 90%;
   margin: 0px auto 0px auto;
   margin-bottom: 0px;
   }
-  
+
   .main-box:last-child {
   margin-right: auto;
   }
-  
+
   .main-box:nth-child(2) {
   margin-top: 20px;
   margin-bottom: 20px;
   }
-  
-  .image1 {
-  background-size: 100%;
-  background-position: center bottom;
-  }
-  
-  .image2 {
-  background-size: 100%;
-  background-position: center bottom;
-  }
-  
-  .image3 {
-  background-size: 100%;
-  background-position: center bottom;
-  }
+
 }
